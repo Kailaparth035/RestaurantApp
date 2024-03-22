@@ -1,0 +1,92 @@
+export enum ScreenRoutes {
+  PosConfig = "PosConfig",
+  UserLogin = "UserLogin",
+  Menu = "Menu",
+  EditOrder = "EditOrder",
+  CreateCustomItem = "CreateCustomItem",
+  OrderHistory = "OrderHistory",
+  TenderedAmountStepCash = "TenderedAmountStepCash",
+  ApprovedStepCash = "ApprovedStepCash",
+  EnterPhoneNumberStepCash = "EnterPhoneNumberStepCash",
+  TransactionCompletedStepCash = "TransactionCompletedStepCash",
+  TipStepCredit = "TipStepCredit",
+  CreditStart = "CreditStart",
+  EnterPhoneNumberStepCredit = "EnterPhoneNumberStepCredit",
+  TransactionCompletedStepCredit = "TransactionCompletedStepCredit",
+  TipStepRfid = "TipStepRfid",
+  ReaderReady = "ReaderReady",
+  RFID = "RFID",
+  RegisterRfidAssociation = "RegisterRfidAssociation",
+  PinInsert = "PinInsert",
+  TransactionRfidDeclined = "TransactionRfidDeclined",
+  TransactionRfidApproved = "TransactionRfidApproved",
+  TransactionRfidComplete = "TransactionRfidComplete",
+  TipStepQRCode = "TipStepQRCode",
+  QRCodeReaderReady = "QRCodeReaderReady",
+  TransactionQRCodeDeclined = "TransactionQRCodeDeclined",
+  TransactionQRCodeApproved = "TransactionQRCodeApproved",
+  TransactionQRCodeComplete = "TransactionQRCodeComplete",
+  UserPasscode = "UserPasscode",
+  AdminPanel = "AdminPanel",
+  CompanyLogin = "CompanyLogin",
+  OrganizerConfig = "Organizer Config",
+}
+
+export enum RoutesDisplayName {
+  PosConfig = "Menu Selection",
+  UserLogin = "Clerk Login",
+  OrganizerConfig = "Event Selection",
+  Menu = "Menu",
+  EditOrder = "Edit Order",
+  CreateCustomItem = "Create Custom Item",
+  OrderHistory = "Order History",
+  TenderedAmountStepCash = "Cash Checkout",
+  ApprovedStepCash = "Cash Checkout",
+  EnterPhoneNumberStepCash = "Cash Checkout",
+  TransactionCompletedStepCash = "Cash Checkout",
+
+  TipStepCredit = "Credit Checkout",
+  CreditStart = "Credit Checkout",
+  EnterPhoneNumberStepCredit = "Credit Checkout",
+  TransactionCompletedStepCredit = "Credit Checkout",
+
+
+
+  TipStepRfid = "Rfid Checkout",
+  ReaderReady = "Rfid Checkout",
+  RFID = "Rfid Checkout",
+  RegisterRfidAssociation = "Rfid Checkout",
+  PinInsert = "Rfid Checkout",
+  TransactionRfidDeclined = "Rfid Checkout",
+  TransactionRfidApproved = "Rfid Checkout",
+  TransactionRfidComplete = "Rfid Checkout",
+
+  TipStepQRCode = "QR Code Checkout",
+  QRCodeReaderReady = "QR Code Checkout",
+  TransactionQRCodeDeclined = "QR Code Checkout",
+  TransactionQRCodeApproved = "QR Code Checkout",
+  TransactionQRCodeComplete = "QR Code Checkout",
+
+
+  UserPasscode = "User Passcode",
+  AdminPanel = "Admin Panel",
+  CompanyLogin = "Company Login",
+}
+
+export enum Strings {
+  // RFID Details modal from menu
+
+  "Locally Stored Cashless Asset Count" = "Locally Stored Cashless Asset Count :",
+  "Cloud Stored Cashless Asset Count" = "Cloud Stored Cashless Asset Count :",
+  "Locally Stored Attendee Records" = "Locally Stored Attendee Records :",
+  "Cloud Stored Attendee Records" = "Cloud Stored Attendee Records :",
+  syncRFIDs = "Sync Attendees and Cashless Assets",
+  localRFIDLookup = "Local RFID Lookup",
+  "Please Enter Admin Code." = "Please Enter Admin Code.",
+  "Invalid Pin, Please try again." = "Invalid Pin, Please try again.",
+  pleaseTapWristband = "Please Tap Wristband",
+  "Would you like to look up an RFID Assets ?" = "Would you like to look up an RFID Assets ?",
+  submitPassword = "Submit Password",
+  "RFID Asset Not Found Locally" = "RFID Asset Not Found Locally",
+  "RFID Attendee Record Not Found Locally" = "RFID Attendee Record Not Found Locally",
+}

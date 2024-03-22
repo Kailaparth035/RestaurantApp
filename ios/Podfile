@@ -1,0 +1,39 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+
+target 'PosApp' do
+  config = use_native_modules!
+
+  # For bugsnag integration
+  use_modular_headers!
+
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  pod 'react-native-background-timer', :path => '../node_modules/react-native-background-timer'
+
+  target 'PosAppTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+  use_flipper!
+  post_install do |installer|
+    flipper_post_install(installer)
+  end
+end
+
+target 'PosApp-tvOS' do
+  # Pods for PosApp-tvOS
+
+  target 'PosApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end

@@ -1,0 +1,475 @@
+{
+  "strict": {
+    "text-font-family": "OpenSans-Regular",
+
+    "text-heading-1-font-size": 58,
+    "text-heading-1-font-weight": "700",
+    "text-heading-1-font-family": "OpenSans-Bold",
+    "text-heading-1-line-height": 72.5,
+
+    "text-heading-2-font-size": 37,
+    "text-heading-2-font-weight": "700",
+    "text-heading-2-line-height": 46.25,
+
+    "text-heading-3-font-size": 26,
+    "text-heading-3-font-weight": "700",
+    "text-heading-3-line-height": 32.5,
+
+    "text-heading-4-font-size": 22,
+    "text-heading-4-font-weight": "700",
+    "text-heading-4-line-height": 27.5,
+
+    "text-heading-5-font-size": 20,
+    "text-heading-5-font-weight": "700",
+    "text-heading-5-line-height": 25,
+
+    "text-heading-6-font-size": 19,
+    "text-heading-6-font-weight": "700",
+    "text-heading-6-line-height": 25,
+
+    "text-subtitle-1-font-size": 22,
+
+    "text-subtitle-2-font-size": 20,
+
+    "text-subtitle-3-font-size": 18,
+
+    "text-paragraph-1-font-size": 21,
+    "text-paragraph-1-font-weight": "400",
+    "text-paragraph-1-font-family": "OpenSans-Regular",
+
+    "text-paragraph-2-font-size": 18,
+    "text-paragraph-2-font-weight": "400",
+    "text-paragraph-2-font-family": "OpenSans-Regular",
+
+    "text-caption-1-font-size": 20,
+    "text-caption-1-font-weight": "400",
+    "text-caption-1-font-family": "OpenSans-Regular",
+
+    "text-caption-2-font-size": 18,
+    "text-caption-2-font-weight": "600",
+    "text-caption-2-font-family": "OpenSans-Regular",
+
+    "text-label-font-size": 20,
+    "text-label-font-weight": "800",
+    "text-label-line-height": 22,
+    "text-label-font-family": "OpenSans-Bold",
+
+    "text-subtitle-1-line-height": 30,
+    "text-subtitle-2-line-height": 24,
+    "text-subtitle-3-line-height": 20,
+    "text-paragraph-1-line-height": 30,
+    "text-paragraph-2-line-height": 26,
+    "text-caption-1-line-height": 23,
+    "text-caption-2-line-height": 20
+  },
+
+  "components": {
+    "Button": {
+      "meta": {
+        "variantGroups": {
+          "status": {
+            "basic": {
+              "default": false
+            },
+            "primary": {
+              "default": true
+            },
+            "secondary": {
+              "default": false
+            },
+            "tertiary": {
+              "default": false
+            },
+            "quaternary": {
+              "default": false
+            },
+            "keypad": {
+              "default": false
+            },
+            "combined": {
+              "default": false
+            },
+            "success": {
+              "default": false
+            },
+            "info": {
+              "default": false
+            },
+            "warning": {
+              "default": false
+            },
+            "danger": {
+              "default": false
+            },
+            "control": {
+              "default": false
+            },
+            "selected": {
+              "default": false
+            }
+          },
+          "size": {
+            "tiny": {
+              "default": false
+            },
+            "small": {
+              "default": false
+            },
+            "medium": {
+              "default": true
+            },
+            "large": {
+              "default": false
+            },
+            "giant": {
+              "default": false
+            },
+            "mammoth": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "filled": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "secondary": {
+                "borderColor": "color-basic-25",
+                "backgroundColor": "color-basic-25",
+                "textColor": "color-basic-600",
+                "iconTintColor": "color-basic-800",
+                "state": {
+                  "active": {
+                    "borderColor": "color-basic-50",
+                    "backgroundColor": "color-basic-50"
+                  }
+                }
+              },
+              "keypad": {
+                "borderColor": "color-basic-500",
+                "backgroundColor": "color-basic-25",
+                "textColor": "color-basic-500",
+                "iconTintColor": "color-basic-500",
+                "state": {
+                  "active": {
+                    "borderColor": "color-basic-50",
+                    "backgroundColor": "color-basic-50"
+                  }
+                }
+              },
+              "tertiary": {
+                "borderColor": "background-alternative-color-3",
+                "backgroundColor": "background-alternative-color-3",
+                "textColor": "background-basic-color-3",
+                "iconTintColor": "background-basic-color-3",
+                "state": {
+                  "active": {
+                    "borderColor": "background-alternative-color-1",
+                    "backgroundColor": "background-alternative-color-1"
+                  }
+                }
+              },
+              "quaternary": {
+                "borderColor": "background-alternative-color-1",
+                "backgroundColor": "background-alternative-color-1",
+                "state": {
+                  "active": {
+                    "borderColor": "background-alternative-color-2",
+                    "backgroundColor": "background-alternative-color-2"
+                  }
+                }
+              },
+              "combined": {
+                "borderColor": "color-basic-25",
+                "backgroundColor": "color-basic-25",
+                "textColor": "text-basic-color",
+                "iconTintColor": "color-basic-800",
+                "state": {
+                  "active": {
+                    "borderColor": "color-primary-default-border",
+                    "backgroundColor": "color-primary-default",
+                    "textColor": "text-control-color",
+                    "iconTintColor": "text-control-color"
+                  }
+                }
+              }
+            },
+            "size": {
+              "giant": {
+                "textFontSize": 18
+              },
+              "mammoth": {
+                "minWidth": "size-giant",
+                "minHeight": "size-giant",
+                "borderRadius": "border-radius",
+                "borderWidth": "border-width",
+                "paddingHorizontal": 18,
+                "paddingVertical": 22,
+                "textMarginHorizontal": 12,
+                "textFontSize": 25,
+                "textFontWeight": "bold",
+                "iconWidth": 24,
+                "iconHeight": 24,
+                "iconMarginHorizontal": 12
+              }
+            }
+          }
+        },
+        "outline": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "secondary": {
+                "borderColor": "color-basic-500",
+                "backgroundColor": "color-basic-25",
+                "textColor": "color-basic-500",
+                "iconTintColor": "color-basic-500",
+                "state": {
+                  "active": {
+                    "textColor": "text-basic-color",
+                    "borderColor": "color-basic-700",
+                    "backgroundColor": "color-basic-50"
+                  }
+                }
+              },
+              "selected": {
+                "borderColor": "color-success-500",
+                "backgroundColor": "color-success-transparent-100",
+                "textColor": "text-alternate-color",
+                "iconTintColor": "color-basic-100",
+                "state": {
+                  "active": {
+                    "textColor": "text-alternate-color",
+                    "borderColor": "color-success-700",
+                    "backgroundColor": "color-success-transparent-100"
+                  }
+                }
+              },
+              "keypad": {
+                "borderColor": "color-basic-500",
+                "backgroundColor": "color-basic-25",
+                "textColor": "color-basic-500",
+                "iconTintColor": "color-basic-500",
+                "state": {
+                  "active": {
+                    "borderColor": "color-basic-50",
+                    "backgroundColor": "color-basic-50"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "ghost": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "borderColor": "transparent",
+                "backgroundColor": "transparent",
+                "textColor": "color-basic-1000",
+                "iconTintColor": "color-basic-1000",
+                "state": {
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "color-basic-1000",
+                    "iconTintColor": "color-basic-1000"
+                  }
+                }
+              },
+              "primary": {
+                "borderColor": "transparent",
+                "backgroundColor": "transparent",
+                "textColor": "color-primary-default",
+                "iconTintColor": "color-primary-default",
+                "state": {
+                  "active": {
+                    "borderColor": "transparent",
+                    "backgroundColor": "color-basic-transparent-200",
+                    "textColor": "color-primary-default",
+                    "iconTintColor": "color-primary-default"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Tab": {
+      "meta": {
+        "parameters": {
+          "borderBottomWidth": "number",
+          "borderColor": "string",
+          "marginHorizontal": "number"
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textMarginVertical": 2,
+            "textFontSize": 16,
+            "textFontWeight": "bold",
+            "textColor": "text-hint-color",
+            "borderBottomWidth": 3,
+            "borderColor": "text-hint-color",
+            "marginHorizontal": 2,
+            "state": {
+              "selected": {
+                "textColor": "text-primary-color",
+                "iconTintColor": "text-primary-color",
+                "borderColor": "text-primary-color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TabBar": {
+      "meta": {
+        "appearances": {
+          "default": {
+            "default": true
+          },
+          "noIndicator": {
+            "default": false
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "backgroundColor": "background-basic-color-1",
+            "indicatorBorderRadius": 0
+          }
+        },
+        "noIndicator": {
+          "mapping": {
+            "indicatorHeight": 0,
+            "indicatorBackgroundColor": "yellow"
+          }
+        }
+      }
+    },
+    "Text": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "lineHeight": {
+            "type": "number"
+          }
+        },
+        "variantGroups": {
+          "category": {
+            "s3": {
+              "default": false
+            }
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {},
+          "variantGroups": {
+            "category": {
+              "h1": {
+                "lineHeight": "text-heading-1-line-height"
+              },
+              "h2": {
+                "lineHeight": "text-heading-2-line-height"
+              },
+              "h3": {
+                "lineHeight": "text-heading-3-line-height"
+              },
+              "h4": {
+                "lineHeight": "text-heading-4-line-height"
+              },
+              "h5": {
+                "lineHeight": "text-heading-5-line-height"
+              },
+              "s1": {
+                "lineHeight": "text-subtitle-1-line-height"
+              },
+              "s2": {
+                "lineHeight": "text-subtitle-2-line-height"
+              },
+              "s3": {
+                "lineHeight": "text-subtitle-3-line-height",
+                "fontSize": "text-subtitle-3-font-size"
+              },
+              "p1": {
+                "lineHeight": "text-paragraph-1-line-height"
+              },
+              "p2": {
+                "lineHeight": "text-paragraph-2-line-height"
+              },
+              "c1": {
+                "lineHeight": "text-caption-1-line-height"
+              },
+              "c2": {
+                "lineHeight": "text-caption-2-line-height"
+              },
+              "label": {
+                "lineHeight": "text-label-line-height"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Divider": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "height": 2,
+            "backgroundColor": "background-basic-color-6"
+          }
+        }
+      }
+    },
+    "Input": {
+      "meta": {
+        "parameters": {
+          "backgroundColor": "background-basic-color-3",
+          "borderColor": "border-basic-color-6"
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "backgroundColor": "background-basic-color-3",
+                "borderColor": "border-basic-color-6"
+              }
+            },
+            "size": {
+              "medium": {}
+            }
+          }
+        }
+      }
+    },
+    "Select": {
+      "meta": {
+        "parameters": { "backgroundColor": "background-basic-color-1" }
+      },
+      "appearances": {
+        "default": {
+          "mapping": { "labelFontWeight": "400" },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "backgroundColor": "background-basic-color-1"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
